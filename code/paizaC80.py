@@ -19,14 +19,13 @@ for w in range(count):
         mohan.append((w + 1) - button)
     else:
         mohan.append(w + 1)
-        
+
 # 変数の初期化
 score = 0
 miss = 0
 
 # 模範回答と実際の回答ログを付き合わせる
 for i in range(count):
-
     if int(kaitou[i]) == mohan[i]:
         score += 1000
     else:
