@@ -31,7 +31,7 @@ for i in range(count):
     else:
         miss += 1
 
-if miss >= rule:
+if (not miss == 0) and miss >= rule:
     print(-1)
 else:
     print(score)
