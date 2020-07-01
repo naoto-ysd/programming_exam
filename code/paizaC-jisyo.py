@@ -34,9 +34,13 @@
   
 
 # 回答
+
+# 人数を入力する
 n = int(input())
+# 財産を格納する辞書を作成
 zaisan = {}
 
+# 人数文だけ繰り返してユーザーに入力させる
 for i in range(n):
     [s, a] = input().split()
     zaisan[s] = a
