@@ -19,22 +19,6 @@
 # 末尾に改行を入れ、余計な文字、空行を含んではいけません。
 
 
-# 空の配列を作成
-# info = []
-
-# 人数を入力
-# num = input()
-
-# 人の名前と財産を入力
-# for w in range(num):
-#     name, money = input().split()
-#     info[]
-
-# for i, info in enumerate(input().split()):
-  
-
-# 回答
-
 # 人数を入力する
 n = int(input())
 # 財産を格納する辞書を作成
@@ -43,6 +27,10 @@ zaisan = {}
 # 人数文だけ繰り返してユーザーに入力させる
 for i in range(n):
     [s, a] = input().split()
+    # この書き方でもOK
+    # s, a = input().split()
+
+    # 名前をキーにして、名前ごとに財産を設定する
     zaisan[s] = a
 
 S = input()
