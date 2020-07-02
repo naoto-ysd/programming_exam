@@ -1,0 +1,15 @@
+キー	記号
+command	⌘
+shift	⇧
+option	⌥
+control	⌃
+caps lock
+
+
+control + shift + ^ ターミナルを出す
+control + shift + 0 ターミナルを引っ込める(自分で設定したショートカット)
+command + 1 ターミナルからエディタへ移動
+option + command + 1 エディタからターミナルへ移動(これで作った→https://qiita.com/kinchiki/items/dabb5c890d9c57907503 https://qiita.com/Shun141/items/fbed88abd4518f6d4039)
+command + k → s(ショートカット一覧の参照)
+
+alt+cmd+1
