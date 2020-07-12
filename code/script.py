@@ -1,2 +1,5 @@
-print('Hello, World!')
-print(1 + 2)
+a = input()
+b = input()
+jisyo = {a:b}
+key = str(1)
+print(jisyo[key])
