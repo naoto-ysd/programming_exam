@@ -1,5 +1,2 @@
-a = input()
-b = input()
-jisyo = {a:b}
-key = str(1)
-print(jisyo[key])
+a,b=(int(x) for x in input().split())
+print(a+b)
