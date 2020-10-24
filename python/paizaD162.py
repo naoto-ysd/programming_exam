@@ -1,2 +1,2 @@
 N = int(input())
-print(N*7)
+print(N*150)
