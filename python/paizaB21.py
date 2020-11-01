@@ -11,12 +11,14 @@ for n in range(N):
   # 単語に複数形が含まれるか検索
   if len(tango) - tango.rfind("s") == 1 or len(tango) - tango.rfind("sh") == 2 or len(tango) - tango.rfind("ch") == 2 or len(tango) - tango.rfind("o") == 1 or len(tango) - tango.rfind("x") == 1:
     tango = tango + "es"
-  elif len(tango) - tango.rfind("s") == 1 or len(tango) - tango.rfind("sh") == 2
+  elif len(tango) - tango.rfind("f") == 1:
+    # 単語末尾のfをとる
+    tango = tango.rstrip("f") + "ves"
+    tango
 
-  # 単語末尾の1文字をとる
-  # tango1 =
-  # 単語の末尾の2文字をとる
-  # tango2 = 
+  elif len(tango) - tango.rfind("fe") == 2:
+    # 単語の末尾のfeをとる
+    tango = tango.rstrip("fe") + "ves"
 
     
 
