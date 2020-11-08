@@ -20,12 +20,12 @@ for n in range(H):
 
                 # 一番左の列だったら
                 if i == 0:
-                  # 下のマスの確認
-                  if kadan[n+1][i] == "#":
-                      himo =  himo -1
-                  # 右のマスの確認
-                  if kadan[n][i+1] == "#":
-                      himo =  himo -1
+                    # 下のマスの確認
+                    if kadan[n+1][i] == "#":
+                        himo =  himo -1
+                    # 右のマスの確認
+                    if kadan[n][i+1] == "#":
+                        himo =  himo -1
 
                 # 一番右の列だったら
                 elif i == W -1:
