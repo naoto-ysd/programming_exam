@@ -1,13 +1,12 @@
-time = int(input())
+pattern = input()
+string = input()
 result = 0
 
-for i in range(time):
-    std_in = input()
-    array = std_in.split()
+for i in range(len(string) - len(pattern) + 1):
+    portion = string[i:i + len(pattern)]
 
-    if array[0] == array[1]:
-        result += int(array[0]) * int(array[1])
-    else:
-        result += int(array[0]) + int(array[1])
+    if portion == pattern:
+        result += 1
 
 print(result)
+
