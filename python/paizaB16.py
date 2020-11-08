@@ -14,11 +14,7 @@ for i in range(n):
     kyori = int(kyori)
 
     if muki == 'U':
-        # 7 6 1
-        # 3 4
-        # U 3
         sabun = y + kyori
-        # 移動した距離がマップの縦幅を超えていたら
         if sabun >= h:
             amari = sabun % h
 
