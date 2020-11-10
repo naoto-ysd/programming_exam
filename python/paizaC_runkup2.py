@@ -2,6 +2,7 @@ pattern = input()
 string = input()
 result = 0
 
+# abdeeAAbAAAbfde
 for i in range(len(string) - len(pattern) + 1):
     portion = string[i:i + len(pattern)]
 
