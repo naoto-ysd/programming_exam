@@ -1,8 +1,11 @@
 n = int(input())
 
+dic={"string":"", "integer":""}
+
 for num in range(n):
-    i,j = input().split()
-    
+    s,i = input().split()
+    i = int(i)
+    dic
 
 # s = input()
 # t = input()
