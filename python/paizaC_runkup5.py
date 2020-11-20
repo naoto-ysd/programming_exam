@@ -1,15 +1,15 @@
-s = input()
-t = input()
-count = 0
+# s = input()
+# t = input()
+# count = 0
 
-s_length = len(s)
-t_length = len(t)
+# s_length = len(s)
+# t_length = len(t)
 
-for n in range(t_length):
-    if s == t[n:n+s_length]:
-        count += 1
+# for n in range(t_length):
+#     if s == t[n:n+s_length]:
+#         count += 1
 
-print(count)
+# print(count)
 
 # 模範回答
 # pattern = input()
