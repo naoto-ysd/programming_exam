@@ -1,3 +1,9 @@
+n = int(input())
+
+for num in range(n):
+    i,j = input().split()
+    
+
 # s = input()
 # t = input()
 # count = 0
