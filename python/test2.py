@@ -1,3 +1,4 @@
+# クラス
 class Spam:
     val = 100
     def ham(self):
@@ -10,7 +11,7 @@ class Spam:
 spam = Spam()
 spam.ham()
 
-
+# コンストラクタ
 class Spam:
     def __init__(self,ham,egg):
         self.ham = ham
@@ -39,3 +40,23 @@ class Derived(Base):
 derived = Derived()
 print("{0}".format(derived.basevalue))
 derived.ham()
+
+
+# 多重継承
+class A:
+    def method(self):
+        print("class A")
+
+class B:
+    def method(self):
+        print("class B")
+
+class C(A):
+    def method(self):
+        print("class C")
+
+class D(B,C):
+    pass
+
+d = D()
+d.method()
