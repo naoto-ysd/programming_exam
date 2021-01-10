@@ -2,10 +2,10 @@ a = gets.to_i
 b = gets.to_i
 
 # 足し算
-puts a + b
+puts "足し算の結果は" + (a + b).to_s + "です"
 
 # 引き算
-puts a - b
+puts "引き算の結果は" + (a - b).to_s + "です"
 
 # 割り算
 puts a / b
