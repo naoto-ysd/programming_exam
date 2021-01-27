@@ -48,7 +48,7 @@ print(c)
 # 多重配列で格納
 # https://qiita.com/daihukuchan/items/c7c807c2e01e49657e5d
 # map関数は引数に map(処理内容,繰り返し処理ができるもの)　という引数を取る
-# 下記の処理では入力を半角スペースで区切→int型に変換→cという配列を作り、for文で繰り返して多重配列を作っている
+# 下記の処理では入力を半角スペースで区切→int型に変換→dという配列を作り、for文で繰り返して多重配列を作っている
 N = 3
 d = [ list(map(int,input().split(" "))) for x in range(N)]
 print(d)
