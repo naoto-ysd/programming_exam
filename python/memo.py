@@ -2,7 +2,6 @@
 m,p,q = input().split()
 
 
-
 S = input()
 for n in range(len(S)):
     # 文字列オブジェクト[開始インデックス:終了インデックス]
@@ -11,7 +10,12 @@ for n in range(len(S)):
     print(S[n:n+1])
     # print(S[n:n+1] in target)
 
-
+# 開始インデックスと終了インデックスをコロン(:)でつなげて指定すると文字列を切り出せる
+# thにはtの1文字目と2文字目が入る
+# tmにはtの3文字目以降が全て入る
+    t = input()
+    th = int(t[0:2])
+    tm = int(t[3:])
 
 E = input().split("+")
 answer = 0
@@ -59,3 +63,27 @@ S_x = ["aa","vv","dd","ff","ww"]
 
 for log in S_x:
     print(log)
+
+
+
+
+# ソート
+N = int(input())
+# 配列の要素数を決める。
+kingin = [0] * N
+
+for i in range(N):
+    [a, b] = [int(j) for j in input().split()]
+    # 配列の中身(金と銀)を逆にしている
+    kingin[i] = [b, a]
+
+# 配列(kingin)に対してソートをかけている。デフォルトで多次元配列の最初の要素同士で比較するっぽい。
+kingin.sort(reverse=True)
+# 以下でも同様のソートが可能
+# kingin.sort(reverse=True, key=lambda x:(x[0], x[1]))
+
+
+
+
+
+# 
