@@ -45,8 +45,8 @@ print(list(c))
 # https://qiita.com/daihukuchan/items/c7c807c2e01e49657e5d
 # map関数は引数に map(処理内容,繰り返し処理ができるもの)　という引数を取る
 # 下記の処理では入力を半角スペースで区切→int型に変換→cという配列を作っている
-c = list(map(int,input().split(" ")))
-print(c)
+arr = list(map(int,input().split(" ")))
+print(arr)
 
 
 # 多重配列で格納
