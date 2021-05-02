@@ -5,7 +5,27 @@
 # クラス (アッパーキャメルケースで書く 例: GetUser)
 # ファイル名、ディレクトリ名。 スネークケースで書く(例: foo_class)
 # 1文字変数は使わない。iとかoは1と0で間違ったりするから
-n = gets.to_i
-i = gets.to_i
-print(100-n)
-print(i)
+
+
+module Test
+  def hoge
+    puts "Testmoduleが呼び出されている"
+  end
+end
+
+class User
+  # Test moduleを読み込んでいる
+  include Test
+
+  def get_user
+    # Testモジュールをincludeしているので、hogeメソッドが使える
+    hoge()
+    puts "get_userが呼び出されている"
+  end
+end
+
+# Userインスタンスの作成
+user = User.new
+# Userクラスのget_userメソッドを呼び出す。
+# Userクラスで、Testモジュールをincludeしているので、hogeメソッドが使える
+user.get_user
