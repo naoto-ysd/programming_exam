@@ -1,6 +1,7 @@
-const fs = require("fs");
+let cody = new Object();
 
-const input = fs.readFileSync("/dev/stdin", "utf-8");
+cody.living = true
+cody.age = 33
+cody.gender = 'male'
 
-const [a, b] = input.split("\n").map((num) => Number(num));
-console.log(a * b);
+console.log(cody)
