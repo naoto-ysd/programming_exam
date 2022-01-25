@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7dcadcc-ade4-4921-9fde-20ff47010f5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ruby/introspection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby/orm.rb" afterDir="false" />
+    <list default="true" id="b7dcadcc-ade4-4921-9fde-20ff47010f5c" name="Changes" comment="meta programing">
+      <change afterPath="$PROJECT_DIR$/ruby/B102.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby/movie.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +50,18 @@
       <option name="presentableId" value="Default" />
       <updated>1640966726531</updated>
       <workItem from="1640966727430" duration="17000" />
-      <workItem from="1642219494001" duration="1220000" />
+      <workItem from="1642219494001" duration="3570000" />
+      <workItem from="1642225195682" duration="323000" />
+      <workItem from="1643112871535" duration="5899000" />
     </task>
+    <task id="LOCAL-00001" summary="meta programing">
+      <created>1642222053927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642222053927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +77,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="meta programing" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta programing" />
   </component>
 </project>
