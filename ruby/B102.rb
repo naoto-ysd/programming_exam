@@ -5,38 +5,57 @@
 # クラス (アッパーキャメルケースで書く 例: GetUser)
 # ファイル名、ディレクトリ名。 スネークケースで書く(例: foo_class)
 # 1文字変数は使わない。iとかoは1と0で間違ったりするから
-h,w,n = gets.split.map(&:to_i)
 
-heights = []
-operation = Array.new(n)
-temp_width = Array.new(w)
+h,w,n = gets.split.map(&:to_i)
+heights = Array.new(w)
 
 for height_num in 0..h-1
-  temp_width[height_num] = gets.split.map(&:to_s)
+  heights[height_num] = gets.chomp.chars
 end
 
-temp_width.each do |tw|
-  heights.push(tw)
-end
-
-operation.push(gets.to_s)
+operation = gets.chomp.chars
 
 operation.each do |op|
   for height_num in 0..h-1
     for width_num in 0..w
-      if op == 'D' && heights[width_num] == '#'
-        heights[width_num + 1] = '#'
-        heights[width_num - 1] = '#'
-        heights[height_num - 1] = '#'
-      elsif op == 'E'
+      if op == "D" && heights[width_num] == "#"
+        if width_num == 0
+          heights[width_num + 1] = "#"
+        else
+          heights[width_num + 1] = "#"
+          heights[width_num - 1] = "#"
+        end
 
+        if height_num == 0
+          heights[height_num+1][width_num + height_num + 1] = "#"
+        else
+          heights[height_num+1][width_num + height_num + 1] = "#"
+          heights[height_num-1][width_num + height_num - 1] = "#"
+        end
+
+      elsif op == "E" && heights[width_num] == "."
+        p heights
+        if width_num == 0
+          heights[width_num + 1] = "."
+        else
+          heights[width_num + 1] = "."
+          heights[width_num - 1] = "."
+        end
+
+        if height_num == 0
+          heights[height_num+1][width_num + height_num + 1] = "."
+        else
+          heights[height_num+1][width_num + height_num + 1] = "."
+          heights[height_num-1][width_num + height_num - 1] = "."
+        end
       end
     end
   end
 end
 
 heights.each do |height|
-  p height
+  height.each do |hi|
+    print hi
+  end
+  print "\n"
 end
-
-# print "hello\n"
