@@ -6,7 +6,7 @@
 # ファイル名、ディレクトリ名。 スネークケースで書く(例: foo_class)
 # 1文字変数は使わない。iとかoは1と0で間違ったりするから
 
-h,w,n = gets.split.map(&:to_i)
+H,W = gets.split.map(&:to_i)
 heights = Array.new(w)
 
 for height_num in 0..h-1
