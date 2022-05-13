@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7dcadcc-ade4-4921-9fde-20ff47010f5c" name="Changes" comment="meta programing">
-      <change afterPath="$PROJECT_DIR$/ruby/lvup_1.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby/lvup_2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby/lvup_3.rb" afterDir="false" />
+    <list default="true" id="b7dcadcc-ade4-4921-9fde-20ff47010f5c" name="Changes" comment="add ruby">
+      <change afterPath="$PROJECT_DIR$/ruby/lvup_4.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruby/B110.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/B110.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <workItem from="1642225195682" duration="323000" />
       <workItem from="1643112871535" duration="10819000" />
       <workItem from="1643748921281" duration="1493000" />
-      <workItem from="1652021453950" duration="1635000" />
+      <workItem from="1652021453950" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="meta programing">
       <created>1642222053927</created>
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652021502759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ruby">
+      <created>1652191355030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652191355030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="meta programing" />
-    <option name="LAST_COMMIT_MESSAGE" value="meta programing" />
+    <MESSAGE value="add ruby" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ruby" />
   </component>
 </project>
