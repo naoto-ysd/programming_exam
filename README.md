@@ -1,1 +1,1 @@
-いろんな言語でいろんなプログラムを書いて保存しておくリポジトリ。
+A repository for storing various programs.
