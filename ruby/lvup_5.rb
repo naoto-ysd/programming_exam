@@ -15,3 +15,13 @@ end
 p sum
 
 # other answer
+loop = gets.chomp.to_i
+ans = 0
+
+(1..loop).each do |i|
+  num = gets.chomp.to_i
+
+  ans = ans + num if num >= 5
+end
+
+puts ans
