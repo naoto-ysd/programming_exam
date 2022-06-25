@@ -9,8 +9,8 @@ caps lock
 control + shift + ^ or command + J  Display the terminal
 control + shift + 0 hide the terminal
 command + 1 move from terminal to editor
-option + command + 1 エディタからターミナルへ移動(これで作った→https://qiita.com/kinchiki/items/dabb5c890d9c57907503 https://qiita.com/Shun141/items/fbed88abd4518f6d4039)
-command + k → s(ショートカット一覧の参照)
+option + command + 1 Move from editor to terminal(reference→https://qiita.com/kinchiki/items/dabb5c890d9c57907503 https://qiita.com/Shun141/items/fbed88abd4518f6d4039)
+command + k → s(Browse the shortcut list)
 control + ` Display the terminal and Hide it.
 command + 1 Move from the terminal to the editor.
 
