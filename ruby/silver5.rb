@@ -6,3 +6,5 @@ h[:b] = 100
 p h
 
 p String.method_defined?(:to_a)
+
+p "a".upto('f').to_a
