@@ -10,3 +10,11 @@ str = "liberty fish\r\n"
 str.strip
 p str
 p "  abc  \r\n".strip 
+
+count = 0
+numbers = [3,40,39,29,10,50,59,69,70]
+num = numbers.inject do |i,j|
+  i > j ? i:j
+end
+
+p num
