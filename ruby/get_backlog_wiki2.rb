@@ -33,3 +33,16 @@ wikis = JSON.parse(response.body)
 wikis.each do |wiki|
   puts "#{wiki['id']}: #{wiki['name']}"
 end
+
+# delete process
+wikis.each do |wiki|
+  p wiki['id']
+  delete_path = "/api/v2/wikis/#{wiki['id']}?apiKey=#{BACKLOG_API_KEY}"
+
+  response = conn.delete do |req|
+    req.url delete_path
+    req.headers['Content-Type'] = 'application/x-www-form-urlencoded'
+  end
+  
+  p response
+end
