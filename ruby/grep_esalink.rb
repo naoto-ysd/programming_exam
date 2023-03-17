@@ -3,10 +3,13 @@
 require 'csv'
 
 def grep_esa_link(path,result_path)
-  CSV.open(result_path,'w') do |result_csv|
+  CSV.open(result_path,'wb') do |result_csv|
     Dir.glob(File.join(path, '**/*.md')) do |filename|
-      result = `grep -n "grep_word" "#{filename}"`
-      result_csv << ["#{filename}, #{result}"] unless result.empty?
+      File.foreach(filename).with_index do |line, line_num|
+        if line.include?("grep_word")
+          result_csv << [filename, line_num + 1, line.chomp!]
+        end
+      end
     end
   end
 end
